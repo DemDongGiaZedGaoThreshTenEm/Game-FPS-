@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13a3062aacf23f49bd5c2c651044104, type: 3}
+  m_Name: AKM
+  m_EditorClassIdentifier: 
+  prefabs: {fileID: 6975497155788886916, guid: 67f716418f7ba2146a845739c7782755, type: 3}
+  Name: AKM
+  firerate: 600
+  AimSpeed: 6
+  Damage: 40
+  MuzzleBlastLoud: 500
+  Projectile: 1
+  Melee: 0
+  Explosive: 0
+  Incendiary: 0
+  Laser: 0
+  Mobility: 80
+  Critical: 0
+  CritDmg: 0
+  CritRate: 0
+  ShieldPenetration: 5
+  ShieldBusting: 0

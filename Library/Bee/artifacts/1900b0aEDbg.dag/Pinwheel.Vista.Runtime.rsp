@@ -1,0 +1,563 @@
+-target:library
+-out:"Library/Bee/artifacts/1900b0aEDbg.dag/Pinwheel.Vista.Runtime.dll"
+-refout:"Library/Bee/artifacts/1900b0aEDbg.dag/Pinwheel.Vista.Runtime.ref.dll"
+-define:UNITY_2021_3_16
+-define:UNITY_2021_3
+-define:UNITY_2021
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_STANDARD_2_0
+-define:NET_STANDARD
+-define:NET_STANDARD_2_1
+-define:NETSTANDARD
+-define:NETSTANDARD2_1
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:VISTA
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"D:/Bai 1/Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"D:/Bai 1/Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"D:/Bai 1/Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"D:/Bai 1/Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"D:/Bai 1/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"D:/Bai 1/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"D:/Bai 1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"D:/Bai 1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"D:/Bai 1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
+-r:"D:/Bai 1/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/BiomeBlendOptions.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/BiomeBufferCopy.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/BiomeData.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/BiomeDataMask.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/BiomeDataRequest.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/BiomeDataUtilities.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/BiomeExtensions.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/DetailTemplate.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/IModuleInfo.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/InstanceSample.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/IAlbedoMapPopulator.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/IBiome.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/IDetailDensityPopulator.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/IDetailInstancePopulator.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/IGenericBufferPopulator.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/IGenericTexturePopulator.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/IGeometryPopulator.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/ILayerWeightsPopulator.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/IMetallicMapPopulator.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/IObjectPopulator.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/IProceduralBiome.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/ISceneHeightProvider.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/ITerrainGraphArgumentsFiller.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/ITerrainSystem.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/ITile.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/Interfaces/ITreePopulator.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/LocalProceduralBiome.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/LPBUtilities.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/ModuleManager.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/ObjectTemplate.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/PolarisTerrainSystem/PolarisTerrainSystem.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/PolarisTerrainSystem/PolarisTile.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/PolarisTerrainSystem/PolarisTileUtilities.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/PositionContainer.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/PositionSample.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/SceneDataUtils.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/TemplateUtils.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/TileExtensions.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/TreeTemplate.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/UnityTerrainSystem/TerrainTile.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/UnityTerrainSystem/TerrainTileUtilities.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/UnityTerrainSystem/UnityTerrainSystem.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/UtilityDelegates.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Core/VistaManager.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/ExposedProperty/PropertyDescriptor.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/ExposedProperty/PropertyId.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/ExposedProperty/PropertyOverride.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/ExposedProperty/PropertyType.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Geometric/Geo2D.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Geometric/Line2D.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Geometric/Polygon2D.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Args.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Attributes/NodeMetadataAttribute.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Attributes/NonExposableAttribute.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Attributes/SerializeAssetAttribute.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/BiomeMaskGraph.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/BiomeMaskGraphUtilities.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/DataPool.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Edge.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/ExecutionHandle.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/ExecutionProgress.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/GraphAsset.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/GraphAssetExtensions.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/GraphAssetSubClasses.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/GraphBuffer.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/GraphConstants.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/GraphContext.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/GraphInputContainer.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/GraphRenderTexture.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Group.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/IEdge.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/IExternalInputProvider.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/IGroup.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/IGroupable.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/IHasAssetReferences.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/IHasDependencyNodes.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/IHasDynamicSlotCount.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/IHasID.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/IHasSeed.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/INode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/INodeExtensions.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/IOutputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/ISetupWithHint.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/ISlot.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/ISlotAdapter.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/IStickyImage.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/IStickyNote.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Interfaces/SlotUtilities.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/LPBInputProvider.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/NodeMetadata.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/AnchorNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/AngularGradientNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/AngularWarpNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/AppendNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/AxialGradientNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/BaseClasses/ExecutableNodeBase.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/BaseClasses/ImageNodeBase.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/BaseClasses/ImageNodeExtension.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/BiomeScaleNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/BlurNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ClampNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ColorBlendNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/CombineNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ConcaveNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ConstantHeightNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ContrastBrightnessNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ConvexNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/CurveNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/DirectionalWarpNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/DirectionMaskNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/DotsNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ExpandNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/FalloffDetailNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/FlattenNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/HeightMaskNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/HydraulicErosionNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/AlbedoOutputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/DetailDensityOutputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/DetailInstanceOutputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/GetVariableNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/HeightOutputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/HoleOutputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/InputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/InstanceOutputNodeBase.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/MeshDensityOutputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/MetallicSmoothnessOutputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/ObjectOutputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/OutputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/SetVariableNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/TextureOutputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/IO/TreeOutputNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/LevelsNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/LoadTextureNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/MathNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/NodeLibraryUtilities.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/NoiseNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/OffsetNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/PointGridNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/PointsNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/PolygonMaskNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/RadialGradientNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/RangeSelectNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/RemapNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/RgbaMergeNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/RotationNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/SelectPositionNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ShapeNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/SharpenNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ShrinkNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/SlopeMaskNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/SmoothNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/SpreadNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/TerraceNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/TerrainSubGraphNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ThinOutNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ThresholdNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/Transform2dNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/TransformPointsNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ValueCheckNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/VoronoiNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/WeightBlendNode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/ObjectRef.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/ObjectReference.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/PositionInput.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/RecursiveGraphReferenceException.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/ResolutionOverrideOptions.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Serialization/Serializer.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Slots/BufferSlot.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Slots/ColorTextureSlot.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Slots/GenericSlot.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Slots/MaskSlot.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Slots/SlotBase.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Slots/SlotDirection.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Slots/SlotProvider.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Slots/SlotRef.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/StickyImage.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/StickyNote.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/TerrainGenerationConfigs.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/TerrainGraph.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/TerrainGraphUtilities.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/TextureInput.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/VisualState.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graphics/AlphaMapsCombiner.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graphics/BufferHelper.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graphics/BufferTrimmer.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graphics/Drawing.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graphics/NoiseRenderer.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graphics/PolygonMaskRenderer.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Graphics/WeightsBlend.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/AnchorUtilities.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/AssemblyInfo.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/Collector.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/Constants.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/CoroutineHandle.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/CoroutineManager.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/CoroutineUtility.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/InstanceBufferParser.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/MinMaxFloat.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/MinMaxInt.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/NoiseMode.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/ProgressiveTask.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/ShaderUtilities.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/SpawnUtilities.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/Utilities.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/VersionInfo.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/VersionManager.cs"
+"Assets/PinwheelStudio/Vista/Runtime/Scripts/Utilities/WaitAllCompleted.cs"
+-langversion:9.0
+
+/deterministic
+/optimize-
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+
+/nowarn:0169
+/nowarn:0649
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+
+
+/additionalfile:"Library/Bee/artifacts/1900b0aEDbg.dag/Pinwheel.Vista.Runtime.AdditionalFile.txt"

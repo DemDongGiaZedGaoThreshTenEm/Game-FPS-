@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "new Ability", menuName = "Ability")]
 public class Abilities : ScriptableObject
 {
+    public GameObject CastPoint;
     [SerializeField] public float Cooldown;
     [SerializeField] public float Duration;
     [SerializeField] public float PWConsumption;
@@ -16,3 +17,6 @@ public class Abilities : ScriptableObject
 
     }
 }
+
+
+

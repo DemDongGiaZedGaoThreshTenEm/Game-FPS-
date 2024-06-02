@@ -15,16 +15,19 @@ public class Playermovement : MonoBehaviour
     public float jumpspd;
     bool ready2jump;
     public float gravity;
-    public Rigidbody rb;
-    public Transform GroundDetector;
-    public LayerMask ground;
-    public GameObject Gun;
-    public Transform target;
-    public float drag;
+    
 
     [Header("Reffrnc")]
     public Transform Orientation;
     public Transform PlayerObj;
+    public Rigidbody rb;
+    public Transform GroundDetector;
+    public LayerMask ground;
+    public GameObject Gun;
+    public Guns CurrentWeapon;
+    public Transform target;
+    public float drag;
+    public float CurrentSpeed;
 
     [Header("Sliding")]
     public float maxSlideTime;
@@ -46,12 +49,22 @@ public class Playermovement : MonoBehaviour
     {
         //Camera.main.enabled = false;
         rb = GetComponent<Rigidbody>();
+        CurrentSpeed = speed;
     }
 
     private void Update()
     {
-         
-            
+        //Adjust speed while holding a weapon
+        Weapon wp = this.GetComponent<Weapon>();
+        CurrentWeapon = wp.LoadOut[0];
+        if(CurrentWeapon != null && wp.equipped)
+        {
+            CurrentSpeed = CurrentWeapon.MobilityRatio * speed;
+        }
+        if(CurrentWeapon != null & !wp.equipped || CurrentWeapon == null)
+        {
+            CurrentSpeed = speed;
+        }
     }
     private void FixedUpdate()
     {
@@ -74,7 +87,7 @@ public class Playermovement : MonoBehaviour
             TargetVelocity.y -= Physics.gravity.y;          
             rb.velocity = TargetVelocity;*/
               
-            if (Input.GetKey(KeyCode.Space))
+            if (jump)
             {
                 Gun.GetComponent<Animator>().Play("Weapon Jumping");
             }
@@ -135,7 +148,7 @@ public class Playermovement : MonoBehaviour
         
             rb.AddForce(moveVector.normalized * speed, ForceMode.Force);
         
-            rb.transform.position += moveVector.normalized * speed * Time.deltaTime;
+            rb.transform.position += moveVector.normalized * CurrentSpeed * Time.deltaTime;
         
 
 
@@ -145,7 +158,7 @@ public class Playermovement : MonoBehaviour
             rb.AddForce(GetSlopeMoveDr(moveVector)* speed * 1f, ForceMode.Force);
             if(rb.velocity.y >0)
             {
-                rb.AddForce(Vector3.down *80f, ForceMode.Force);
+                rb.AddForce(Vector3.down *50f, ForceMode.Force);
             }
                
         }

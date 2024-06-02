@@ -14,16 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabs: {fileID: 7925550274993778847, guid: b88734a1042418a4f8712777682cadc2, type: 3}
   Name: HSR-LR19
+  BoltActionSniper: 1
+  SemiAuto: 0
+  Automatic: 0
+  PumpActionShotGun: 0
   firerate: 0
+  mobility: 0
   AimSpeed: 3.7
   Damage: 400
-  MuzzleBlastLoud: 1400
+  MuzzleBlastLoud: 1000
   Projectile: 1
   Melee: 0
   Explosive: 0
   Incendiary: 0
   Laser: 0
-  Mobility: 40
+  MobilityRatio: 0.706
   Critical: 0
   CritDmg: 0
   CritRate: 0

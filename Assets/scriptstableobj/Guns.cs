@@ -10,11 +10,12 @@ public class Guns : ScriptableObject
     public string Name;
     [Header("Weapon Types")]
     public bool BoltActionSniper;
-    public bool SemiAutoSniper;
+    public bool SemiAuto;
     public bool Automatic;
     public bool PumpActionShotGun;
 
     public float firerate;
+    public float mobility;
     public float AimSpeed;
     public float Damage;
     public float MuzzleBlastLoud;
@@ -25,9 +26,10 @@ public class Guns : ScriptableObject
     public bool Incendiary;
     public bool Laser;
     [Header("Percentage")]
-    [Range(0,100)]
-    public float Mobility;
+    [Range(0,1)]
+    public float MobilityRatio;
 
+    [Range(0, 100)]
     public bool Critical;
 
     public float CritDmg;

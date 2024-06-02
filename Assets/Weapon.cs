@@ -10,28 +10,55 @@ public class Weapon : MonoBehaviour
     public Transform WeaponParent;
     private GameObject CurrentWeapon;
     public GameObject Gun;
-
+    public bool isAiming = false;
+    public bool equipped = false;
     #endregion
     #region MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        // Check if the player is aiming
+        bool isAiming = Input.GetMouseButton(1);
+
+        // If the player is not aiming, allow weapon switching
+        if (Index < LoadOut.Length && Index >= 0)
         {
-            Equip(0);
-            Gun.GetComponent<Animator>().Play("Weapon - taking or swapping");
+            if (!isAiming)
+            {
+                // Check if the player presses the 1 key to equip another weapon
+
+                if (Input.GetKeyDown(KeyCode.Alpha1))
+                {
+                    equipped = true;
+                    Equip(0);
+                    Gun.GetComponent<Animator>().Play("Weapon - taking or swapping");
+                }
+
+            }
         }
-        if (CurrentWeapon!=null)
+        else
         {
-            aim(Input.GetMouseButton(1));
+            Destroy(CurrentWeapon);
+            equipped = false;
+        }
+        
+           
+            // Update the aim based on whether the player is aiming or not
+            if (CurrentWeapon != null)
+        {
+            aim(isAiming);
         }
     }
     #endregion
     #region Method
     void Equip(int p_ind)
     {
+
         if (CurrentWeapon != null)
-            Destroy(CurrentWeapon);
+        {
+            Destroy(CurrentWeapon);          
+        }
+
         Index = p_ind;
         GameObject newWeapon = Instantiate(LoadOut[p_ind].prefabs, WeaponParent.position, WeaponParent.rotation, WeaponParent) as GameObject;
         newWeapon.transform.localPosition = Vector3.zero;
@@ -44,14 +71,18 @@ public class Weapon : MonoBehaviour
         Transform Anchor = CurrentWeapon.transform.GetChild(0);
         Transform Status_hip = CurrentWeapon.transform.GetChild(1).GetChild(0);
         Transform Status_ads = CurrentWeapon.transform.GetChild(1).GetChild(1);
-
-        if(p_aim)
+        if(!Input.GetKeyDown(KeyCode.Alpha1))
         {
-            Anchor.position = Vector3.Lerp(Anchor.position, Status_ads.position, Time.deltaTime * LoadOut[Index].AimSpeed);
-        }
-        else
-        {
-            Anchor.position = Vector3.Lerp(Anchor.position, Status_hip.position, Time.deltaTime * LoadOut[Index].AimSpeed);
+            if (p_aim)
+            {
+                isAiming = true;
+                Anchor.position = Vector3.Lerp(Anchor.position, Status_ads.position, Time.deltaTime * LoadOut[Index].AimSpeed);
+            }
+            if (!p_aim)
+            {
+                Anchor.position = Vector3.Lerp(Anchor.position, Status_hip.position, Time.deltaTime * LoadOut[Index].AimSpeed);
+                isAiming = false;
+            }
 
         }
     }

@@ -36,7 +36,7 @@ public class Rotation : MonoBehaviour
         }
     }
 
-    void SetX()
+    public void SetX()
     {
         float t_input = Input.GetAxis("Mouse X") * XSensitivity * Time.deltaTime;
         Quaternion quaternion = Quaternion.AngleAxis(t_input, Vector3.up);

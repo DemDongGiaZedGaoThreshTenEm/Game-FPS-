@@ -44,7 +44,7 @@ public class Bobbing : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        float currentStep = maxStepDistance; 
     }
 
     // Update is called once per frame
@@ -79,7 +79,11 @@ public class Bobbing : MonoBehaviour
         Vector3 invertLook = lookInput * -step;
         invertLook.x = Mathf.Clamp(invertLook.x, -maxStepDistance, maxStepDistance);
         invertLook.y = Mathf.Clamp(invertLook.y, -maxStepDistance, maxStepDistance);
-
+        if(Input.GetMouseButton(1))
+        {
+            invertLook.x = Mathf.Clamp(invertLook.x, -maxStepDistance * 0.05f, maxStepDistance * 0.05f);
+            invertLook.y = Mathf.Clamp(invertLook.y, -maxStepDistance * 0.05f, maxStepDistance * 0.05f);
+        }
         swayPos = invertLook;
     }
 
@@ -129,7 +133,6 @@ public class Bobbing : MonoBehaviour
             bobEulerRotation.x = (walkInput != Vector2.zero ? multiplier.x * (Mathf.Sin(0 * speedCurve)) : multiplier.x * (Mathf.Sin(0 * speedCurve) / 2));
             bobEulerRotation.y = (walkInput != Vector2.zero ? multiplier.y * curveCos : 0);
             bobEulerRotation.z = (walkInput != Vector2.zero ? multiplier.z * curveCos * walkInput.x : 0);
-
         }
     }
 }

@@ -65,7 +65,7 @@ public class AttributesManager : MonoBehaviour
         TakeDmg(Dmg);
         if(PW < maxPW) StartCoroutine(PWRegenerate());
         if(HP < maxHP) StartCoroutine(HPRegenerate());
-
+        /*
         if (readyToBuff && BuffChance > 0)
         {
            OvershieldBuffed();
@@ -73,7 +73,7 @@ public class AttributesManager : MonoBehaviour
         if(readyToBuff = false && ShieldBuffed == false)
         {
             Destroy(Overshield);
-        }   
+        }   */
        
     }
 

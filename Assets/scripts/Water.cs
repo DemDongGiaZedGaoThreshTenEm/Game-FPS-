@@ -10,15 +10,16 @@ public class Water : MonoBehaviour
     [SerializeField] Playermovement Pmvmnt;
     [SerializeField] ClipPrevention CP;
 
-
+    
     void OnTriggerEnter(Collider c)
     {
         
         isUnderWater = true;
         if(c.gameObject.CompareTag("MainCamera"))
         {
-            waterfx.gameObject.SetActive(true);
-            RenderSettings.fog = true;
+             waterfx.gameObject.SetActive(true);
+             RenderSettings.fog = true;
+            
         }
         if(c.gameObject.CompareTag("Player") && c.GetComponent<Playermovement>() != null)
         {
@@ -34,7 +35,11 @@ public class Water : MonoBehaviour
             Pmvmnt.isSwimming = true;
             //Pmvmnt.JumpForce = 0f;
         }
-
+        if (Pmvmnt == null)
+        {
+            waterfx.gameObject.SetActive(false);
+            RenderSettings.fog = false;
+        }    
     }   
     void OnTriggerExit(Collider c)
     {

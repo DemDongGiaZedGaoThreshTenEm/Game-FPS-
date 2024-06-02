@@ -14,7 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabs: {fileID: 6975497155788886916, guid: 67f716418f7ba2146a845739c7782755, type: 3}
   Name: AKM
+  BoltActionSniper: 0
+  SemiAuto: 0
+  Automatic: 1
+  PumpActionShotGun: 0
   firerate: 600
+  mobility: 0
   AimSpeed: 6
   Damage: 40
   MuzzleBlastLoud: 500
@@ -23,7 +28,7 @@ MonoBehaviour:
   Explosive: 0
   Incendiary: 0
   Laser: 0
-  Mobility: 80
+  MobilityRatio: 0.917
   Critical: 0
   CritDmg: 0
   CritRate: 0

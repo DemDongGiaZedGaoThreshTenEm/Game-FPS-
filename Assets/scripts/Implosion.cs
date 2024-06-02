@@ -21,7 +21,6 @@ public class Implosion : MonoBehaviour
     void Update()
     {
         StartImplosion();
-
     }
     private void StartImplosion()
     {

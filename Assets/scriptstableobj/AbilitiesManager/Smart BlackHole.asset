@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d05f60f7fda409d4696c4a2044d0e941, type: 3}
   m_Name: Smart BlackHole
   m_EditorClassIdentifier: 
+  CastPoint: {fileID: 1407438421452439959, guid: f656451129b319b45941495ca0f0a988, type: 3}
   Cooldown: 3
   Duration: 4
   PWConsumption: 37

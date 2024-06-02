@@ -69,7 +69,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
+  m_ScaleInLightmap: 0.5
   m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
@@ -178,6 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4696216175943693753}
   - component: {fileID: 537705250742567624}
+  - component: {fileID: 7033599743814758642}
   m_Layer: 0
   m_Name: PT_Fruit_Tree_01_green
   m_TagString: Untagged
@@ -194,8 +195,8 @@ Transform:
   m_GameObject: {fileID: 5361428799875542787}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3.73, y: 3.73, z: 3.73}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8305029876632308500}
   - {fileID: 2486815125958864585}
@@ -212,24 +213,38 @@ LODGroup:
   m_GameObject: {fileID: 5361428799875542787}
   serializedVersion: 2
   m_LocalReferencePoint: {x: -0.053788185, y: 3.1455173, z: -0.5286331}
-  m_Size: 7.8219233
+  m_Size: 1
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.25
+  - screenRelativeHeight: 0.03196145
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2558605503083844748}
-  - screenRelativeHeight: 0.125
+  - screenRelativeHeight: 0.015980724
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1613519660729417021}
-  - screenRelativeHeight: 0.01
+  - screenRelativeHeight: 0.0012784579
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1094804630965145243}
   m_Enabled: 1
+--- !u!64 &7033599743814758642
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5361428799875542787}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: -1
+  m_Mesh: {fileID: -2391616400560951514, guid: f222748f1796b2e49a56a2fbf7563247, type: 3}
 --- !u!1 &6567692543045439752
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,7 +314,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
+  m_ScaleInLightmap: 0.5
   m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
